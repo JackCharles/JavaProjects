@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+#showtype{text-align: center;}
+#showtype table{margin:auto;
+	width:420px;
+}
+#showtype table caption{font-size: 18px;}
+#showtype th, #showtype td{padding: 4px;}
+
+#showtype #ms-area{
+	float:left;
+	padding-left: 40px;
+}
+#showtype #mjj-area{
+	padding-left: 40px;
+}
+#showtype #sw-area{
+	float:left;
+	padding-left: 40px;
+}
+#showtype #qt-area{
+	padding-left: 40px;
+}
+
+#addtype table{margin: auto;
+	width: 500px;
+}
+
+#addtype th ,#addtype td{border:none;
+	text-align: center;
+	padding: 5px 10px;
+}
+#addtype select{width: 100%;
+	height: 30px;
+	font-size: 16px;
+	border: 1px solid #00BFFF;
+}
+
+#addtype input{width: 100%;
+	height: 26px;
+	border: 1px solid #00BFFF;
+}
+
+#addtype #bt{width:45%;
+	height:30px;
+}

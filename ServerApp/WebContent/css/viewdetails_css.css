@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+table{width: 700px;}
+.bordered th,.bordered td{padding: 5px 10px;}
+#attention{text-align:left;
+	color:red;
+	padding-left: 200px;
+	padding-top: 20px;
+}

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+#aaaa{padding-top: 100px;}
+
+#modifyarea{
+	text-align: center;
+}
+
+
+#modifytable{width:700px;}
+#modifytable th,#modifytable td{font-family: 微软雅黑;
+	font-size: 16px;
+}
+#modifytable #inputbox{font-size: 16px;
+	width:100%;
+	height: 26px;
+	border:solid #00BFFF 1px;
+}
+
+#modifytable #submitbutton{
+	width: 150px;
+	height: 30px;
+}
+
+#attention{
+	font-size: 16px;
+	color: red;
+	text-align: center;
+}
+
+#rolebox{text-align: left;}
+#rolebox input{
+	padding:0;
+	width:15px;
+	height: 15px;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+#rolebox #r1{
+	width: 90px;
+	float: left
+}
+#rolebox #r2{
+	width: 120px;
+	float: left
+}
+#rolebox #r3{
+	width: 120px;
+	float: left
+}
+#rolebox #r4{
+	width: 160px;
+	float: left
+}
+#rolebox #r5{
+	width: 100px;
+	float: left
+}
+
+#rolebox span{color:red;
+	font-family: 微软雅黑;
+}
+#warning{
+	color:red;
+	margin-top: 10px;
+	margin-left: 250px;
+}

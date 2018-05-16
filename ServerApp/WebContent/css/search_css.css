@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body{font-family: 微软雅黑;
+	font-size: 16px;
+	text-align: center;
+}
+#title{font-size: 26px;
+	font-weight: lighter;
+	color:#326bd6;
+	padding-top: 100px;
+}
+
+table{margin: auto;
+	width: 500px;
+}
+
+#inputbox{width: 100%;
+	padding-right: 0;
+	height: 22px;
+	border: 1px solid #00BFFF;
+	font-size: 16px;
+}
+
+#selectbox{
+	width: 100%;
+	padding-right: 0;
+	height: 28px;
+	border: 1px solid #00BFFF;
+	font-size: 16px;
+}
+
+.bordered th, .bordered td{border:none;
+	font-weight: lighter;
+}
+
+#button-sub, #button-res{width: 150px;
+	height: 35px;
+	font-size: 16px;
+}
+
+#ttype{
+	width:50px;
+	border: 1px solid #00BFFF;
+	height: 28px;
+	font-size: 16px;
+}
+
+#trno{
+	width: 80px;
+	border: 1px solid #00BFFF;
+	height: 22px;
+	font-size: 16px;
+}
+
+#tyear{
+	width:50px;
+	border: 1px solid #00BFFF;
+	height: 22px;
+	font-size: 16px;
+}

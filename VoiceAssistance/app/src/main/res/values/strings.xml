@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">语音助手</string>
+    <string name="log_title">语音识别内容输出</string>
+    <string name="tips">按下说话 抬起识别</string>
+</resources>

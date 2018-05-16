@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.bordered td{
+	padding: 5px;
+}
+
+#details{
+	width: 520px;
+}
+
+#search{float: left;
+	padding-left: 38px;
+}
+#search caption{font-size: 20px;}
+#search table{width: 350px;}
+#search select{
+	width:60%;
+	height: 30px;
+	border: solid #00BFFF 1px;
+	font-size: 16px;
+}
+#search input{width: 30%;
+	height: 30px;
+	border: solid #00BFFF 1px;
+	font-size: 16px;
+}
+
+#delete-log{float: left;
+	font-family: 微软雅黑;
+	font-size: 16px;
+	padding-left: 45px;
+}
+#delete-log caption{
+	font-size: 20px;
+}
+
+#delete-log table{width: 500px;}
+#delete-log #datebox {width: 110px;
+	height: 26px;
+	border: solid #00BFFF 1px;
+	font-size: 16px;
+}
+
+#delete-log #subbt{width: 80px;
+	height: 30px;
+	border: solid #00BFFF 1px;
+	font-size: 16px;
+}

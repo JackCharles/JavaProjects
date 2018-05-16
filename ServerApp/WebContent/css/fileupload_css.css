@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+#title{text-align: center;
+	font-size: 26px;
+	font-weight: lighter;
+	color:#4169E1;
+	padding-top: 20px;
+}
+
+#leftpart{float:left; 
+	display:inline;
+	padding-left: 39px;
+	padding-top: 20px;
+}
+#rightpart{float:left; 
+	display:inline;
+	padding-left: 39px;
+	padding-top: 20px;
+}
+
+/*left part*/
+#leftpart input, #leftpart select,#leftpart textarea{margin-bottom: 0;}
+
+#leftpart th,#leftpart td{text-align: center; 
+	font-size: 16px;
+	padding:5px 10px;
+	border: none;
+	vertical-align: middle;
+}
+
+#leftpart #attt{
+	border-bottom: 1px solid #c0c0c0;
+}
+
+#attention{text-align:left;
+	font-size: 14px;
+	color: 	#000080	;
+}
+
+#inputbox{width:300px;
+	padding-right:20px;
+	line-height:22px; 
+	font-size: 16px;
+	border: solid #00BFFF 1px;
+}
+
+#selectbox{
+	width:325px;
+	height:28px; 
+	font-size: 16px;
+	border: solid #00BFFF 1px;
+}
+#PartyBox{width:317px;
+	font-size: 16px;
+	border: solid #00BFFF 1px;
+}
+#commemtbox{width:317px;
+	font-size: 16px;
+	border: solid #00BFFF 1px;
+}
+#typearea{width:160px;
+	height: 28px;
+	font-size: 16px;
+	border: solid #00BFFF 1px;
+}
+#subtypearea{width:162px;
+	height: 28px;
+	font-size: 16px;
+	border: solid #00BFFF 1px;
+}
+#subtypearea .ms{display: none;}
+#subtypearea .jj{display: none;}
+#subtypearea .sw{display: none;}
+#subtypearea .other{display: none;}
+#tother{display: none;}
+
+#button{width:161px;
+	height: 28px;
+	font-size: 16px;
+}
+
+
+#ttype{
+	border: 1px solid #00BFFF;
+	height: 28px;
+	font-size: 16px;
+}
+
+#trno{
+	width: 60px;
+	border: 1px solid #00BFFF;
+	height: 22px;
+	font-size: 16px;
+}
+
+#tyear{
+	width:40px;
+	border: 1px solid #00BFFF;
+	height: 22px;
+	font-size: 16px;
+}
+
+
+/*right part*/
+
+#rightpart input, #rightpart select,#rightpart textarea{margin-bottom: 0;}
+#rightpart td{padding:5px 5px;}
+#divStatus{font-size: 14px;}
+#startupload{width: 150px;
+	height: 29px;
+	font-size: 16px;
+}
+#btnCancel{width: 145px;
+	height: 29px;
+	font-size: 16px;
+}

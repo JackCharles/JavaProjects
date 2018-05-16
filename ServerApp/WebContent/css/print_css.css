@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+table{
+	border-collapse: collapse;
+	font-family: "宋体";
+	font-size: 14px;
+}
+table caption{
+	font-size: 16px;
+	font-weight: bold;
+}
+td, th{
+	border: 1px solid black;
+}
