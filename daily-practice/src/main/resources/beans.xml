@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <aop:aspectj-autoproxy/>
+
+    <bean id="student" class="com.zjee.aop.Student">
+        <property name="name" value="Alice"/>
+        <property name="age" value="18"/>
+    </bean>
+
+    <bean id="dog" class="com.zjee.spring.Dog">
+        <property name="name" value="husky"/>
+        <property name="age" value="1"/>
+    </bean>
+
+<!--    <bean id="adviser" class="com.zjee.aop.AdviseBasedXml"/>-->
+
+<!--    <aop:config>-->
+<!--        <aop:aspect ref="adviser">-->
+<!--            <aop:before method="beforeFly" pointcut="execution(* com.zjee.aop.Flyable.fly())"/>-->
+<!--        </aop:aspect>-->
+<!--    </aop:config>-->
+
+    <bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+        <property name="interceptorNames">
+            <list>
+                <value>logInterceptor</value>
+            </list>
+        </property>
+        <property name="beanNames" value="student"/>
+    </bean>
+
+    <bean id="logInterceptor" class="com.zjee.spring.LogInterceptor"/>
+</beans>
